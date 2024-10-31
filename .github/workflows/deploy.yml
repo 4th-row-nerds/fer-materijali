@@ -1,0 +1,41 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "master", "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get content repository
+        uses: actions/checkout@v4
+        with:
+          path: 'source'
+
+      - name: Run deploy script
+        run: |
+          chmod +x ./source/deploy/gm ./source/deploy/compile.sh
+          export GM_PATH=./source/deploy/gm
+          ./source/deploy/compile.sh ./source ./output ./temp
+      
+      - name: Upload compiled files to artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  deploy:
+    permissions:
+      id-token: write
+      pages: write
+    environment: 
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
