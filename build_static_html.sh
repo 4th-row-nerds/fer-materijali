@@ -25,7 +25,7 @@ rm -f ./build/.gitignore
 HL_THEME="catppuccin-latte"
 
 # Generate HTML from markdown files
-./gm **/*.md --move-no-md -o build --gm-highlighting $HL_THEME
+./deploy/gm **/*.md --move-no-md -o build --gm-highlighting $HL_THEME
 
 
 
