@@ -2,6 +2,8 @@
 
 ## Matematička analiza 1
 1. [Predavanje - Skupovi, matematička logika, realni brojevi](predavanja/matan1--matematicka-analiza/P01-skupovi_matlog_realbr.md)
+### Dokazi
+1. [Funkcije i relacije](teorija/matan1-matematicka-analiza/T02-funkcije-i-relacije.md)
 
 ## Uvod u programiranje
 1. [Predavanje - Uvodni sat](predavanja/uup--uvod-u-programiranje/P01-uvodni_sat.md)
