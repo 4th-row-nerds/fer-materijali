@@ -2,7 +2,7 @@
 
 > **🔴🔴🔴 Napomena 🔴🔴🔴**
 >
-> Ova stranica još nije gotova  i ne garantiramo njezinu točknost
+> Ova stranica još nije gotova  i ne garantiramo njezinu točnost
 
 # Funkcije i relacije
 
