@@ -16,3 +16,4 @@
 ### Pripreme za LV
 1. [Priprema - zadatci i riješenja](pripreme-za-lv/uup--uvod-u-programiranje/LV01/tekstovi_zadatka.md)
 1. [Priprema - zadatci i riješenja](pripreme-za-lv/uup--uvod-u-programiranje/LV02/tekstovi_zadatka.md)
+1. [Priprema - zadatci i riješenja](pripreme-za-lv/uup--uvod-u-programiranje/LV03/tekstovi_zadatka.md)
