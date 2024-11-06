@@ -278,7 +278,7 @@ Procijenite učestalost slova u engleskom jeziku tako što ćete prebrojiti koli
 
 Prikažite grafički, s pomoću stupčastog grafa (histogram).
 
-> [!Note]
+> [!note]
 > Datoteka sa svim Shakespearovim djelima nalazi se [ovdje](./P05-shakespeare-all-works.txt).
 <!-- Preuzeto sa: https://www.gutenberg.org/cache/epub/100/pg100.txt -->
 

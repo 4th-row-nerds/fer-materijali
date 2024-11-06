@@ -99,7 +99,7 @@ Programski zadatak
 - s tipkovnice učitati cijeli broj n koji predstavlja broj studenata na predmetu Uvod u programiranje. Za svakog studenta učitati matični broj (int), broj bodova na međuispitu (float), broj bodova na završnom ispitu (float) i broj bodova za svaku od osam laboratorijskih vježbi (float). Evidentirati sumu bodova na svim provjerama znanja za svakog studenta (ukupni broj bodova).
 - Sortirati studente prema ukupnom broju bodova, u poretku od većih prema manjim. Poredak studenata koji imaju međusobno jednak broj bodova nije važan.
 - Sortirane podatke ispisati u obliku tablice
-> [!Note]
+> [!note]
 > Zadatak se nalazi u prezentaciji predavanja "[Agregatni tipovi podataka](https://www.fer.unizg.hr/_download/repository/07-AgregatniTipoviPodataka.pdf)", ovo je moje riješenje
 
 Riješenje zadatka:

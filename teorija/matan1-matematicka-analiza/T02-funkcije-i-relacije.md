@@ -1,6 +1,6 @@
 [← Natrag na početnu](../../README.md#matematička-analiza-1)
 
-> **🔴🔴🔴 Napomena 🔴🔴🔴**
+> [!napomena]
 >
 > Ova stranica još nije gotova  i ne garantiramo njezinu točnost
 
@@ -20,8 +20,8 @@
   - $x\mapsto y = f(x)$
 
 <!--Prvo korištenje napomene -->
-> **🔴 Napomena**
-> 
+> [!napomena]
+>
 > Dvije funkcije su jednake ako se podudaraju u:
 > - **Domeni**
 > - **Kodomeni**
@@ -37,11 +37,11 @@
 - Funkcijanije injekcija za:
   -  $(\exists x_1, x_2 \in D)\space x_1 \neq x_2 \space \wedge  f(x_1) = f(x_2)$
   > 🟡 Za izvod gore navedenog suda potrebno je znati negaciju implikacije
-  > 
+  >
   > $\urcorner (X \Rightarrow Y) \equiv X \space \wedge \space \urcorner Y$
 
 ### Surjektivnost
--  Za svaki element **kodomene** postoji barem jedan 
+-  Za svaki element **kodomene** postoji barem jedan
 - $(\forall y \in K)(\exist x \in D) \space y = f(x)$
 element **domene** koji se u njega preslikava
 -  $Im(f) = K$ tj. Slika funkcije je jednaka kodomeni
@@ -60,8 +60,8 @@ element **domene** koji se u njega preslikava
 | Bijekcija | Svaki horizontalni pravac siječe funkciju u **samo jednoj** točki | 1 |
 
 <!--Prvo korištenje napomene -->
-> **🔴 Napomena:**
-> 
+> [!napomena]
+>
 > Prilikom provjere surjektivnosti bitno je paziti na kodomenu funkcije:
 
 ### Parnost i neparnost  funkcija
@@ -75,23 +75,23 @@ element **domene** koji se u njega preslikava
 
 
 ### Inverzna funkcija
-- Definicija
-  - $f:D \to K$
-  - $g:K \to D$
-  - $g$ je inverzna Funkcija od $f$ ako je:
-    - $(\forall x \in D)(g \space \circ f)(x) = x$
-    - $(\forall y \in K)(f \space \circ g)(y) = y$
-- $f^{-1}: K \to D$
+- > [!def] Definicija inverzne funkcije
+  > $f:D \to K$
+  > $g:K \to D$
+  > $g$ je inverzna Funkcija od $f$ ako je:
+  > - $(\forall x \in D)(g \space \circ f)(x) = x$
+  > - $(\forall y \in K)(f \space \circ g)(y) = y$
+  >
+  > $f^{-1}: K \to D$
 - **Prema definiciji vrijede funkcija iduća svojstva**
   - $(\forall x \in D)\space f^{-1}(f(x)) = x$
   - $(\forall y \in K)\space f(f^{-1}(x)) = x$
 
 
-## Funkcije dokazi  
+## Funkcije dokazi
 
-|Teorem 2.1.1. |
-|--------------|
-|Funkcija $f:D \to K$ ima inverznu funkciju ako i samo ako je $f$ bijekcija|
+> [!teorem] Teorem 2.1.1.
+> Funkcija $f:D \to K$ ima inverznu funkciju ako i samo ako je $f$ bijekcija|
 
 ### Dokaz
 - Kako je teorem iskazan **ekvivalencijom** (ako i samo ako), onda za dokaz pokazujemo 2 **implikacije**
@@ -110,7 +110,7 @@ element **domene** koji se u njega preslikava
     1. Koristimo $f(f^{-1}(y)) = y$, gdje je $y \in K$
     1. Sada moramo za svaki $y$ pronaći barem jedan $x$ tako da vrijedi $y = f(x)$
     1. Uzmimo da nam je $x = f^{-1}(y)$
-    - $$\begin{align*} y &= f(x) \qquad\qquad \text{(Umjesto x uvrštavamo} \space f^{-1} (y)\text{)} \\ y &=f(f^{-1}(y)) \qquad \qquad \text{(Koristimo formulu b)}  \\ y&=y \qquad \qquad \qquad\text{(Dokazali smo surjektivnost)}\end{align*}$$ 
+    - $$\begin{align*} y &= f(x) \qquad\qquad \text{(Umjesto x uvrštavamo} \space f^{-1} (y)\text{)} \\ y &=f(f^{-1}(y)) \qquad \qquad \text{(Koristimo formulu b)}  \\ y&=y \qquad \qquad \qquad\text{(Dokazali smo surjektivnost)}\end{align*}$$
 - $B \implies A$
   - Pretpostavimo B i dokazujemo A
     - Definicija bijekcije $(\forall y \in K)(\exist ! x \in D) \space y = f(x)$
