@@ -52,7 +52,7 @@ Za 10:
 1111111111
 ```
 
-Riješenje:
+Rješenje:
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -100,9 +100,9 @@ Programski zadatak
 - Sortirati studente prema ukupnom broju bodova, u poretku od većih prema manjim. Poredak studenata koji imaju međusobno jednak broj bodova nije važan.
 - Sortirane podatke ispisati u obliku tablice
 > [!note]
-> Zadatak se nalazi u prezentaciji predavanja "[Agregatni tipovi podataka](https://www.fer.unizg.hr/_download/repository/07-AgregatniTipoviPodataka.pdf)", ovo je moje riješenje
+> Zadatak se nalazi u prezentaciji predavanja "[Agregatni tipovi podataka](https://www.fer.unizg.hr/_download/repository/07-AgregatniTipoviPodataka.pdf)", ovo je moje rješenje
 
-Riješenje zadatka:
+Rješenje zadatka:
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -175,8 +175,8 @@ int main() {
 	printf("========================================\n");
 	for (int i = 0; i < br_st; i++) {
 		printf("%4d. %09d  %4.1f  %4.1f  %4.1f  %6.1f\n",
-	            i + 1, studenti[i].maticni_br, studenti[i].rez_mi,
-	            studenti[i].rez_zi, studenti[i].sum_lv, studenti[i].sum_bodova);
+		    i + 1, studenti[i].maticni_br, studenti[i].rez_mi,
+		    studenti[i].rez_zi, studenti[i].sum_lv, studenti[i].sum_bodova);
 	}
 
 	return EXIT_SUCCESS;

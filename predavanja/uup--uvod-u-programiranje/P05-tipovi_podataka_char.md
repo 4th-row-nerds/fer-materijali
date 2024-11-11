@@ -247,7 +247,7 @@ Upisite niz znakova > ↵
 ```
 
 <details>
-  <summary>Riješenje zadatka</summary>
+  <summary>Rješenje zadatka</summary>
 
 ```c
 #include <stdio.h>
@@ -283,7 +283,7 @@ Prikažite grafički, s pomoću stupčastog grafa (histogram).
 <!-- Preuzeto sa: https://www.gutenberg.org/cache/epub/100/pg100.txt -->
 
 <details>
-  <summary>Riješenje zadatka</summary>
+  <summary>Rješenje zadatka</summary>
 
 ```c
 #include <stdio.h>

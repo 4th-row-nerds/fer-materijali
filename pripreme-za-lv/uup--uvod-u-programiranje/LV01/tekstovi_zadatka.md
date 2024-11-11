@@ -1,6 +1,6 @@
 [← Natrag na početnu](../../../README.md#uvod-u-programiranje)
 
-[Riješenja Zadataka](.)
+[Rješenja Zadataka](.)
 
 # Zadatak 01
 S tipkovnice učitati prirodni broj koji predstavlja količinu novca u kunama. Na zaslon ispisati kombinaciju kovanica od 5, 2 i 1 kune koje čine taj iznos. Kovanice je potrebno odabrati tako da je ukupan broj kovanica minimalan.

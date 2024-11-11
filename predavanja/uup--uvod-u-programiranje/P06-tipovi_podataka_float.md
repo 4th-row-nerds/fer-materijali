@@ -9,7 +9,7 @@ Racionalni broj `q` može se zapisati:
 
  Taj zapis je neefektivan jer ne možemo prikazati puno dekadskih brojeva.
 
-Riješenje! $\Rightarrow$ `float`
+Rješenje! $\Rightarrow$ `float`
 
 ## Float - znanstveni zapis
 
@@ -97,5 +97,5 @@ Tvori se od 64bita:
 
 # Tolerancija
 
-Kako bi se pogreške u pohranjivanju broja minimizirale, dodaje se mala vrijednost $\epsilon$ (tolerancija) u čijem se rasponu riješenje provjerava.
+Kako bi se pogreške u pohranjivanju broja minimizirale, dodaje se mala vrijednost $\epsilon$ (tolerancija) u čijem se rasponu rješenje provjerava.
 

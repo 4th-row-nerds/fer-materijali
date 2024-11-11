@@ -1,6 +1,6 @@
 [← Natrag na početnu](../../../README.md#uvod-u-programiranje)
 
-[Riješenja Zadataka](.)
+[Rješenja Zadataka](.)
 
 # Zadatak 01
 Napišite program koji s tipkovnice učitava prirodni broj N (broj članova polja) te učitava polje od N prirodnih brojeva. Zatim s tipkovnice učitati novi prirodni broj te indeks na koji će biti dodan u postojeće polje. Ostali članovi polja se u odnosu na umetnutog člana pomiču udesno, a zadnji član će izaći "izvan" polja. Program treba ispisati početno te novodobiveno polje.
