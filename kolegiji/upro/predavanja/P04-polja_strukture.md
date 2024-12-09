@@ -1,4 +1,4 @@
-[← Natrag na početnu](../../README.md#uvod-u-programiranje)
+[← Natrag](..)
 
 >###### Demo zadatak
 >Upiši broj i ispitaj ako je palindrom.

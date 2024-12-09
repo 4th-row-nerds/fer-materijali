@@ -1,4 +1,4 @@
-[← Natrag na početnu](../../README.md#uvod-u-programiranje)
+[← Natrag](..)
 
 # Operatori
 Za neke operacije se koristi isti simbol.
