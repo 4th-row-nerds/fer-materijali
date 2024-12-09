@@ -1,4 +1,4 @@
-[← Natrag na početnu](../..)
+[← Natrag](../..)
 
 [Rješenja Zadataka](.)
 
