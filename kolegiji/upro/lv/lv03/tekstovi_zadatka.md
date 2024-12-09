@@ -1,4 +1,4 @@
-[← Natrag na početnu](../../../README.md#uvod-u-programiranje)
+[← Natrag na početnu](../..)
 
 # UPRO priprema za LV03
 

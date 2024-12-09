@@ -1,6 +1,6 @@
 # Digitalna logika
 
-[← Natrag](..)
+[← Natrag](../..)
 
 
 # Laboratorijske vježbe

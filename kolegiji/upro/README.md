@@ -1,6 +1,6 @@
 # Uvod u programiranje
 
-[← Natrag](..)
+[← Natrag](../..)
 
 ## Predavanja
 

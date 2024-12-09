@@ -1,6 +1,6 @@
 # Matematička analiza 1
 
-[← Natrag](..)
+[← Natrag](../..)
 
 
 ## Predavanja
