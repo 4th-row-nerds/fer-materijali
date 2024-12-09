@@ -1,4 +1,4 @@
-[← Natrag na početnu](../../README.md#matematička-analiza-1)
+[← Natrag](..)
 
 # Skupovi, matematička logika, realni brojevi
 
