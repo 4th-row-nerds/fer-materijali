@@ -58,3 +58,4 @@ dkms.conf
 build/
 build.sh
 run.sh
+*.log
