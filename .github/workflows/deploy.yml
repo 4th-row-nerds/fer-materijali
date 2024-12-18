@@ -17,8 +17,7 @@ jobs:
       - name: Run deploy script
         run: |
           chmod +x ./source/deploy/gm ./source/deploy/compile.sh
-          export GM_PATH=./source/deploy/gm
-          ./source/deploy/compile.sh ./source ./output ./temp
+          ./source/deploy/compile.sh -g ./source/deploy/gm ./source ./output
       
       - name: Upload compiled files to artifact
         id: deployment
