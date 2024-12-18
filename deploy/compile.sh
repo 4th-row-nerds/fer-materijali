@@ -36,6 +36,8 @@ while getopts ':hg:t:' OPTION; do
     esac
 done
 
+shift $(( OPTIND - 1 ))
+
 if [[ $# != 2 ]]; then
     echo "Error: Invalid number of arguments, use -h for help"
     exit 1
