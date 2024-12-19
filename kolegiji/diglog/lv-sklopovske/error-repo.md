@@ -1,5 +1,7 @@
 # LV Sklopovske errors
 
+[← Natrag](.)
+
 Ovaj file sadrži popis poznatih grešaka na koje možete naiči prilikom
 uporabe Lattice Diamond alata.
 

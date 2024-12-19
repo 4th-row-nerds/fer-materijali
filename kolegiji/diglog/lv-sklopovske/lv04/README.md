@@ -1,6 +1,6 @@
 # LV04
 
-[← Natrag](../..) | [Files](_)
+[← Natrag](..) | [Files](_)
 
 ## Postupak rješavanja
 

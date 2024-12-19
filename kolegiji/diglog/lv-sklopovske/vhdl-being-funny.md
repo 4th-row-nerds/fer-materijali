@@ -1,5 +1,7 @@
 # Zanimljive VHDL provale
 
+[← Natrag](.)
+
 **Kakav sam počeo, takav ću i završiti**
 
 Sljedeći blok će **rezultirati povećanjem R za 1**. Svaka naredba će
