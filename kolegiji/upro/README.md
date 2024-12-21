@@ -23,3 +23,4 @@
 3. [Priprema - zadatci i rješenja](lv/lv03/tekstovi_zadatka.md)
 4. Priprema - nije objavljena
 5. [Priprema - zadatci i rješenja](lv/lv05/tekstovi_zadatka.md)
+6. [Priprema - zadatci i rješenja](lv/lv06/tekstovi_zadatka.md)
