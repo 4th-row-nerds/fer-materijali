@@ -2,6 +2,9 @@
 
 [← Natrag](../..)
 
+## Materijali
+[Skriveni dodatni zadatci za rješavanje na FER-stranici](https://www.fer.unizg.hr/predmet/arhiva_2017_ppi/materijali#!p_rep_7546!_)
+
 ## Predavanja
 
 1. [Predavanje - Uvodni sat](predavanja/P01-uvodni_sat.md)
