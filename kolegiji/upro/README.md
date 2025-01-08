@@ -15,6 +15,7 @@
 9. [Predavanje - Funkcije (demo zadatak)](predavanja/P09-funkcije.md)
 10. [Predavanje - Pokazivači (demo zadatak)](predavanja/P10-pokazivaci.md)
 11. [Predavanje - Priprema za kolokvij (3 demo zadatka)](predavanja/P11-vjezba_za_kolokvij.md)
+12. [Predavanje - Makro naredbe](predavanja/P12-makro.md)
 
 ## Laboratorijske vježbe
 
