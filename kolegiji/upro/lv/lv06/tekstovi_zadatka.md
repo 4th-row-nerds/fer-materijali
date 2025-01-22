@@ -554,8 +554,6 @@ Ucitaj·trazeni·znak·>·2↵
 Broj·pojavljivanja·>·1↵
 ```
 
-> **Važna napomena:** Kao rješenje zadatka predaje se samo implementirana funkcija koja ne smije sadržavati naredbe za ispis na standardni izlaz ili unos sa standardnog ulaza. Funkcija main i zaglavlja se ne predaju.
-
 <details>
 <summary>Rješenje zadatka</summary>
 
@@ -599,10 +597,6 @@ Rezultat:·AAnaanaas
 Upisite·niz·>·primjer123↵
 Rezultat:·priimjeer123
 ```
-
-
-> **Važna napomena:** Kao rješenje zadatka predaje se samo implementirana funkcija koja ne smije sadržavati naredbe za ispis na standardni izlaz ili unos sa standardnog ulaza. Funkcija main i zaglavlja se ne predaju.
-
 <details>
 <summary>Rješenje zadatka</summary>
 
