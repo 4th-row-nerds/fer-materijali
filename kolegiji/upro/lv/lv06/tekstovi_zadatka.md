@@ -515,3 +515,115 @@ void podijeli(int *mat, int rows, int cols, int *rez) {
 ```
 
 </details>
+
+
+# Zadatak 07
+Napisati funkciju `prebrojiPojave` tipa `void` koja kao parametre prima:
+
+- pokazivač na objekt tipa `char` koji pokazuje na početak znakovnog niza
+- objekt tipa `char`
+- pokazivač na objekt tipa `int` u koji je potrebno upisati rezultat funkcije
+
+Funkcija treba odrediti broj pojava slova, brojke ili drugog znaka (npr. `!` ili `#`) primljenih preko drugog parametra (tipa `char`) u nizu na čiji početak pokazuje pokazivač primljen preko prvog parametra. Pritom je funkcija **case-insensitive** - pri brojanju se **velika i mala slova tretiraju isto**. Rezultat treba vratiti u glavni program preko pokazivača na objekt tipa `int` primljenog preko trećeg parametra.
+
+Ispravnost argumenata ne treba provjeravati, tj. pretpostavite da će uvijek biti zadani valjani pokazivači na traženi tip te ispravni znakovi (`char`).
+
+Primjeri izvršavanja:
+
+```c
+Ucitaj·znakovni·niz·>·Doobar·Dan↵
+Ucitaj·trazeni·znak·>·o↵
+Broj·pojavljivanja·>·2 ↵
+```
+
+```c
+Ucitaj·znakovni·niz·>·AnaVoliMilovana↵
+Ucitaj·trazeni·znak·>·a↵
+Broj·pojavljivanja·>·4↵
+```
+
+```c
+Ucitaj·znakovni·niz·>·AnaVoliMilovana↵
+Ucitaj·trazeni·znak·>·A↵
+Broj·pojavljivanja·>·4↵
+```
+
+```c
+Ucitaj·znakovni·niz·>·p·e·r·o...123↵
+Ucitaj·trazeni·znak·>·2↵
+Broj·pojavljivanja·>·1↵
+```
+
+> **Važna napomena:** Kao rješenje zadatka predaje se samo implementirana funkcija koja ne smije sadržavati naredbe za ispis na standardni izlaz ili unos sa standardnog ulaza. Funkcija main i zaglavlja se ne predaju.
+
+<details>
+<summary>Rješenje zadatka</summary>
+
+```c
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+void prebrojiPojave(char *niz, char objekt, int *rezultat) {
+
+   objekt = toupper(objekt); // Pretvara malo slovo u veliko
+
+   *rezultat = 0;
+   for (size_t i = 0; i < strlen(niz); i++) {
+      niz[i] = toupper(niz[i]);
+      if (niz[i] == objekt) *rezultat += 1;
+   }
+}
+```
+
+</details>
+
+# Zadatak 08
+Napisati funkciju `duplicirajSamoglasnike` prototipa: `void duplicirajSamoglasnike(char *ulaz, char *izlaz)`
+
+Funkcija treba duplicirati svako pojavljivanje samoglasnika u nizu znakova na čiji prvi član pokazuje prvi parametar funkcije (parametar ulaz) te taj niz s dupliciranim samoglasnicima zapisati u znakovni niz na čiji prvi član pokazuje drugi parametar funkcije (parametar izlaz).
+
+Primjeri izvršavanja:
+
+```c
+Upisite·niz·>·abc↵
+Rezultat:·aabc
+```
+
+```c
+Upisite·niz·>·Ananas↵
+Rezultat:·AAnaanaas
+```
+
+```c
+Upisite·niz·>·primjer123↵
+Rezultat:·priimjeer123
+```
+
+
+> **Važna napomena:** Kao rješenje zadatka predaje se samo implementirana funkcija koja ne smije sadržavati naredbe za ispis na standardni izlaz ili unos sa standardnog ulaza. Funkcija main i zaglavlja se ne predaju.
+
+<details>
+<summary>Rješenje zadatka</summary>
+
+```c
+#include <stdlib.h>
+#include <string.h>
+
+void duplicirajSamoglasnike(char *ulaz, char *izlaz) {
+
+   int offset = 0;
+   for (size_t i = 0; i < strlen(ulaz); i++) {
+      izlaz[i + offset] = ulaz[i];
+
+      char c = ulaz[i] & ~32; // Prebacivanje slova u veliko
+
+      if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+          offset++;
+          izlaz[i + offset] = ulaz[i];
+      }
+   }
+}
+```
+
+</details>
