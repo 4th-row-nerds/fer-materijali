@@ -17,3 +17,4 @@ u repozitoriju ili ako odlučimo promijeniti strukturu repozitorija u budućnost
 - [Uvod u programiranje](kolegiji/upro)
 - [Digitalna logika](kolegiji/diglog)
 - [Matematička analiza 1](kolegiji/matan1)
+- [Natjecateljske vještine u kibernetičkoj sigurnosti](kolegiji/navkis)
