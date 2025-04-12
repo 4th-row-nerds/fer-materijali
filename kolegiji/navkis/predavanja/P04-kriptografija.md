@@ -8,6 +8,8 @@
 <!-- [Link na ctf101.org](https://ctf101.org/cryptography/overwiew) -->
 
 # Klasična kriptografija
+[Lista hashova i njigovih algoritama](https://hashcat.net/wiki/doku.php?id=example_hashes)
+
 
 ## Simetrična i asimetrična
 
