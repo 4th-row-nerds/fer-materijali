@@ -10,3 +10,5 @@
 1. [Predavanje - Kriptografija](predavanja/P04-kriptografija.md)
 1. [Predavanje - Web](predavanja/P05-web-sigurnost-1.md)
 1. [Predavanje - Web](predavanja/P06-web-sigurnost-2.md)
+1. Predavanje - x86 Assembly
+1. [Predavanje - Binary Exploitation](predavanja/P08-binary-exploitation.md)
